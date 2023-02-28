@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#imageContainer{
+
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+#upArrow{
+
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#downArrow{
+
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fa-regular{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fa-regular:hover{
+    color: white;
+}
