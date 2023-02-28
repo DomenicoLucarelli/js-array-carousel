@@ -22,12 +22,12 @@ downArrowEl.addEventListener('click', function(){
 
         index++;
     
-        imageEl.src = (imagesList[index]);
+        imageEl.src = (imagesList.at(index));
 
     } else {
         index = 0;
 
-        imageEl.src = (imagesList[index]);
+        imageEl.src = (imagesList.at(index));
 
     }
 
