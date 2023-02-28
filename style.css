@@ -8,6 +8,7 @@
 
     position: relative;
     height: 400px;
+    width: 1000px;
     display: flex;
     justify-content: center;
 }
@@ -38,7 +39,7 @@
 
 .fa-regular{
     font-size: 25px;
-    color: rgba(255, 255, 255, 0.479);
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -48,21 +49,27 @@
 }
 
 #thumbnails{
-
+    position: relative;
     height: 100%;
     width: 200px;
-    background-color: grey;
+    
     display: flex;
     flex-direction: column;
     
 }
+
+#image{
+    width: 100%;
+    object-fit: cover;
+  }
+
 
 
 .thumbStyle{
     border: 1px solid black;
     height: calc(100% /5);
     object-fit: cover;
-    filter: opacity(0.5);
+    filter: opacity(0.8);
     
 }
 
