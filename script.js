@@ -1,4 +1,13 @@
 /* 
+-creare lista di immagini
+-creare un contatore e inizializzarlo a 0
+-far visualizzare all'avvio del programma la prima immagine
+-al click della frccia superiore diminuire il contatore
+    -se l'indice è< di 0 riportarlo alla lunghezza della lista -1
+    -altrimenti procedi
+-al click della freccia inferiore aumentare il contatore
+    -se l'indice è <= della lunghezza della lista procedi con le operazioni
+    -altrimenti riporta l'indice a 0 e procedi com le operazioni
 
 
 
